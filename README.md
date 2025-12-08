@@ -6,7 +6,7 @@ Prototype predictive model for learner disengagement risk, using EEG brain-wave 
 
 ## Project Overview:
 This project is part of **Break Through Tech AI Studio – Fall 2025**.  
-Our team is developing an interpretable system that processes EEG-signal data and learner surveys to build predictive models linking cognitive load to engagement.  
+Our team developed an interpretable system that processes EEG-signal data and learner surveys to build predictive models linking cognitive load to engagement.  
 The goal is to proactively identify early signs of learner disengagement and recommend adaptive interventions that sustain participation, improve retention, and strengthen performance in advanced-tech learning environments.
 
 ---
