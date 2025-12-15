@@ -1,70 +1,182 @@
-# Challenger Insight:
+# Neuroscience-Driven Learning Engagement System
+## Challenger Insight
 
-Prototype predictive model for learner disengagement risk, using EEG brain-wave data and learner surveys. Applies dimensionality reduction and lightweight ML models to link cognitive load with engagement and provide adaptive learning triggers.
-
----
-
-## Project Overview:
-This project is part of **Break Through Tech AI Studio – Fall 2025**.  
-Our team developed an interpretable system that processes EEG-signal data and learner surveys to build predictive models linking cognitive load to engagement.  
-The goal is to proactively identify early signs of learner disengagement and recommend adaptive interventions that sustain participation, improve retention, and strengthen performance in advanced-tech learning environments.
+Prototype predictive model for learner disengagement risk using EEG brain-wave data and learner surveys. The system applies dimensionality reduction and lightweight machine learning models to link cognitive load with engagement and provide adaptive learning triggers.
 
 ---
 
-## Objectives:
-- **Goal 1:** Process and visualize EEG brain-wave data using dimensionality reduction.  
-- **Goal 2:** Build a lightweight predictive model to anticipate learner disengagement.  
-- **Goal 3:** Recommend adaptive content triggers to sustain learner engagement effectively.  
+## Team Members
+
+| Name | GitHub Handle | Contribution |
+|------|---------------|--------------|
+| Meagan Alfaro | @meaganalfaro | Model development, prototype implementation, documentation |
+| Ishrat Arshad | @ishratarshad | Data collection, exploratory data analysis (EDA), dataset creation, model training, documentation |
+| Ruby Hong | @rubysmac | Data collection, EDA, dataset documentation |
+| Aneesa Ayornu | @aeza404 | Data preprocessing, feature engineering, data validation |
+| Mahathi Chinthapalli | @MahathiChinthapalli | Model selection, hyperparameter tuning, training and optimization |
+| Amanda Thomas | @amandathom | Model evaluation, performance analysis, results interpretation |
 
 ---
 
-## Deliverables:
-- Preprocessed EEG dataset and visualizations  
-- Lightweight ML model prototype (e.g., logistic regression, decision trees)  
-- Engagement risk prediction pipeline  
-- Adaptive trigger recommendation framework  
-- Documentation and final presentation  
+## Project Highlights
+
+- Built a machine learning pipeline to detect learner disengagement by combining EEG-derived features with self-reported survey signals.
+- Achieved strong predictive performance (≈ 80%+ accuracy on held-out data) while maintaining interpretability for non-technical stakeholders.
+- Identified early warning indicators of disengagement that can trigger adaptive learning interventions in real time.
+- Designed the system with fairness and transparency in mind, aligning with enterprise training constraints.
 
 ---
 
-## Desired Outcomes:
-- Visual insights into brain-wave patterns indicating cognitive overload  
-- Predictive analytics to identify engagement risks early  
-- Actionable recommendations for adaptive, personalized learning triggers
+## Setup and Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/<org-or-user>/neuroscience-driven-engagement.git
+cd neuroscience-driven-engagement
+```
+
+### 2. Create and activate a virtual environment
+
+```bash
+python -m venv venv
+source venv/bin/activate   # macOS/Linux
+venv\Scripts\activate      # Windows
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Dataset access
+
+- EEG feature files and anonymized survey data are stored in the /data directory.
+- Due to privacy constraints, raw EEG signals are not included.
+- Processed feature matrices are provided for reproducibility.
+
+
+
+### 5. Run notebooks / scripts
+
+```bash
+jupyter notebook
+```
+
+Open the notebooks in the following order:
+
+- 01_data_exploration.ipynb
+- 02_preprocessing_feature_engineering.ipynb
+- 03_model_training.ipynb
+- 04_evaluation_and_fairness.ipynb
 
 ---
-## Accessing the Dashboard
 
-### Quick Start on Any IDE
+## Project Overview
 
-*1. Clone the repository and checkout the branch:*
- ```
-git clone <repository-url>
-cd challenger-insight
-git checkout 3b-final
-```
+This project was developed as part of the Break Through Tech AI Program (AI Studio). Our team partnered with Chambers Capital Ventures to explore how neuroscience-informed data can improve learning outcomes in professional training environments.
 
-*2. Create a virtual environment:*
-```
-python3 -m venv venv
-```
+The project objective was to identify disengagement during technical learning sessions and recommend adaptive strategies before learners fully disengage. By combining EEG-based attention indicators with survey responses, we aimed to move beyond traditional completion metrics and capture engagement as it happens.
 
-*3. Activate the virtual environment:*
-```
-source .venv/bin/activate
-```
-
-*4. Install dependencies:*
-```
-pip install -r ./docs/requirements.txt
-```
-
-*5. Run the dashboard:*
-```
-streamlit run ./dashboard/dashboard.py
-```
-
-*6. Access in your browser:*
-The dashboard will automatically open at http://localhost:8501
+The real-world impact of this work lies in helping organizations reduce training drop-off, improve learner retention, and personalize instruction at scale.
 
 ---
+
+## Data Exploration
+
+### Datasets
+
+- EEG-derived features: numerical indicators capturing attention, cognitive load, and signal variability.
+- Learner surveys: Likert-scale and categorical responses reflecting perceived engagement, difficulty, and fatigue.
+
+### EDA & Preprocessing
+
+- Cleaned missing and noisy values using median imputation and normalization.
+- Explored correlations between EEG features and self-reported engagement.
+- Encoded categorical survey responses and aligned timestamps across modalities.
+
+### Key EDA Insights
+
+- Certain EEG features showed strong correlation with self-reported disengagement.
+- Engagement drops often occurred before learners explicitly reported difficulty, suggesting predictive potential.
+
+![unnamed (7)](https://github.com/user-attachments/assets/a824290f-260c-438c-afd0-11e6ff76cb9f)
+![unnamed (8)](https://github.com/user-attachments/assets/f90f2fab-3b56-4a2f-b5de-f7c55df1e17d)
+<img width="512" height="290" alt="unnamed (2)" src="https://github.com/user-attachments/assets/ded377ab-9714-495c-880e-0cb168e2c1d4" />
+
+
+### Challenges & Assumptions
+
+- Limited sample size required careful validation.
+- EEG features were assumed to be representative proxies for attention rather than direct cognitive states.
+
+---
+
+## Model Development
+
+- Tested multiple models including Logistic Regression, Random Forests, and Decision Trees.
+- Selected interpretable models to support stakeholder trust and explainability.
+- Applied feature selection and hyperparameter tuning using cross-validation.
+
+### Training Setup
+
+- 70/30 train-test split
+- Primary metrics: Accuracy and F1-score
+- Baseline compared against majority-class prediction
+
+---
+
+## Results & Key Findings
+
+- The final model achieved ~80% accuracy with balanced precision and recall.
+- EEG features related to sustained attention were among the strongest predictors.
+- Fairness checks showed consistent performance across demographic subgroups, with no significant bias detected.
+- These results demonstrate that neuroscience-informed features can meaningfully enhance engagement prediction when paired with traditional survey data.
+
+---
+
+## Dashboard Overview
+
+The Streamlit dashboard serves as the interactive interface for the Neuroscience-Driven Learning Engagement System (Challenger Insight). It allows users to explore engagement predictions, EEG feature trends, and risk signals in a clear, interpretable format.
+
+### Key Dashboard Features
+
+- Engagement Risk Score: Displays predicted disengagement risk based on EEG-derived features and survey inputs.
+- EEG Feature Visualizations: Interactive plots showing attention, cognitive load, and signal variability trends.
+- Model Output Transparency: Simple explanations of model predictions to support non-technical stakeholders.
+- Adaptive Trigger Indicators: Highlights when engagement risk crosses predefined thresholds that would prompt learning interventions.
+
+### Dashboard
+
+https://youtu.be/JCvjSIs3CaY
+
+These visual components are designed to support real-time monitoring and future integration into enterprise learning platforms.
+
+---
+
+## Next Steps
+
+- Expand the dataset to include longer training sessions and more participants.
+- Explore temporal models (e.g., LSTMs) to capture engagement trends over time.
+- Integrate the model into a live dashboard to trigger real-time adaptive learning interventions.
+- Incorporate additional explainability tools to further support transparency.
+
+---
+
+## License
+
+This project is licensed under the MIT License (pending Challenge Advisor approval).
+
+---
+
+## References
+
+- Break Through Tech AI Program materials
+- Selected literature on EEG-based engagement detection and learning analytics
+
+---
+
+## Acknowledgements
+
+We thank Chris Chambers (Chambers Capital Ventures) for guiding the problem scope, Lori Kirkland for introducing the real-world challenge context, and Rashidah Carr, our AI Studio Coach, for continuous feedback and support throughout the semester.
