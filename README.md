@@ -1,4 +1,5 @@
 # Neuroscience-Driven Learning Engagement System
+
 ## Challenger Insight
 
 Prototype predictive model for learner disengagement risk using EEG brain-wave data and learner surveys. The system applies dimensionality reduction and lightweight machine learning models to link cognitive load with engagement and provide adaptive learning triggers.
@@ -7,18 +8,19 @@ Prototype predictive model for learner disengagement risk using EEG brain-wave d
 
 ## Team Members
 
-| Name | GitHub Handle | Contribution |
-|------|---------------|--------------|
-| Meagan Alfaro | @meaganalfaro | Model development, prototype implementation, documentation |
-| Ishrat Arshad | @ishratarshad | Data collection, exploratory data analysis (EDA), dataset creation, model training, documentation |
-| Ruby Hong | @rubysmac | Data collection, EDA, dataset documentation |
-| Aneesa Ayornu | @aeza404 | Data preprocessing, feature engineering, data validation |
-| Mahathi Chinthapalli | @MahathiChinthapalli | Model selection, hyperparameter tuning, training and optimization |
-| Amanda Thomas | @amandathom | Model evaluation, performance analysis, results interpretation |
-| Izabella Doser| @Izabelladesign | Data exploration, dimensionality reduction, model development, documentation |
-| Arian Bahram| @ariansbahram  | Data preprocessing, exploratory data analysis (EDA),model development |
-| Saket Kolluru| @Saketk2 | Dashboard development, data visualization, results interpretation  |
-| Eden Radulescu| @edenradulescu |Dashboard development, data visualization, results interpretation |
+| Name                 | GitHub Handle        | Contribution                                                                                             |
+| -------------------- | -------------------- | -------------------------------------------------------------------------------------------------------- |
+| Meagan Alfaro        | @meaganalfaro        | Model development, prototype implementation, documentation                                               |
+| Ishrat Arshad        | @ishratarshad        | Data collection, exploratory data analysis (EDA), dataset creation, model training, documentation        |
+| Ruby Hong            | @rubysmac            | Model development/validation, Data preprocessing, exploratory data analysis (EDA), dataset documentation |
+| Aneesa Ayornu        | @aeza404             | Data preprocessing, feature engineering, data validation                                                 |
+| Mahathi Chinthapalli | @MahathiChinthapalli | Model selection, hyperparameter tuning, training and optimization                                        |
+| Amanda Thomas        | @amandathom          | Model evaluation, performance analysis, results interpretation                                           |
+| Izabella Doser       | @Izabelladesign      | Data exploration, dimensionality reduction, model development, documentation                             |
+| Arian Bahram         | @ariansbahram        | Data preprocessing, exploratory data analysis (EDA),model development                                    |
+| Saket Kolluru        | @Saketk2             | Dashboard development, data visualization, results interpretation                                        |
+| Eden Radulescu       | @edenradulescu       | Dashboard development, data visualization, results interpretation                                        |
+
 ---
 
 ## Project Highlights
@@ -58,8 +60,6 @@ pip install -r requirements.txt
 - EEG feature files and anonymized survey data are stored in the /data directory.
 - Due to privacy constraints, raw EEG signals are not included.
 - Processed feature matrices are provided for reproducibility.
-
-
 
 ### 5. Run notebooks / scripts
 
@@ -107,7 +107,6 @@ The real-world impact of this work lies in helping organizations reduce training
 ![unnamed (7)](https://github.com/user-attachments/assets/a824290f-260c-438c-afd0-11e6ff76cb9f)
 ![unnamed (8)](https://github.com/user-attachments/assets/f90f2fab-3b56-4a2f-b5de-f7c55df1e17d)
 <img width="512" height="290" alt="unnamed (2)" src="https://github.com/user-attachments/assets/ded377ab-9714-495c-880e-0cb168e2c1d4" />
-
 
 ### Challenges & Assumptions
 
