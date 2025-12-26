@@ -1,6 +1,6 @@
 # Neuroscience-Driven Learning Engagement System
 
-## Challenger Insight
+## Challenger Insight:
 
 Prototype predictive model for learner disengagement risk using EEG brain-wave data and learner surveys. The system applies dimensionality reduction and lightweight machine learning models to link cognitive load with engagement and provide adaptive learning triggers.
 
