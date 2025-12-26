@@ -6,7 +6,7 @@ Prototype predictive model for learner disengagement risk using EEG brain-wave d
 
 ---
 
-## Team Members
+## Team Members:
 
 | Name                 | GitHub Handle        | Contribution                                                                                             |
 | -------------------- | -------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -23,7 +23,7 @@ Prototype predictive model for learner disengagement risk using EEG brain-wave d
 
 ---
 
-## Project Highlights
+## Project Highlights:
 
 - Built a machine learning pipeline to detect learner disengagement by combining EEG-derived features with self-reported survey signals.
 - Achieved strong predictive performance (≈ 80%+ accuracy on held-out data) while maintaining interpretability for non-technical stakeholders.
