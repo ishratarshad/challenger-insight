@@ -1,4 +1,4 @@
-# Neuroscience-Driven Learning Engagement System
+# Neuroscience-Driven Learning Engagement System:
 
 ## Challenger Insight:
 
@@ -10,14 +10,14 @@ Prototype predictive model for learner disengagement risk using EEG brain-wave d
 
 | Name                 | GitHub Handle        | Contribution                                                                                             |
 | -------------------- | -------------------- | -------------------------------------------------------------------------------------------------------- |
-| Meagan Alfaro        | @meaganalfaro        | Model development, prototype implementation, documentation                                               |
-| Ishrat Arshad        | @ishratarshad        | Data collection, exploratory data analysis (EDA), dataset creation, model training, documentation        |
-| Ruby Hong            | @rubysmac            | Model development/validation, Data preprocessing, exploratory data analysis (EDA), dataset documentation |
+| Meagan Alfaro        | @meaganalfaro        | Model development, prototype implementation, hyperparameter tuning, documentation                                               |
+| Ishrat Arshad        | @ishratarshad        | MModel development/validation, data preprocessing, exploratory data analysis (EDA), dataset documentation        |
+| Ruby Hong            | @rubysmac            | Model development/validation, data preprocessing, exploratory data analysis (EDA), dataset documentation |
 | Aneesa Ayornu        | @aeza404             | Data preprocessing, feature engineering, data validation                                                 |
 | Mahathi Chinthapalli | @MahathiChinthapalli | Model selection, hyperparameter tuning, training and optimization                                        |
-| Amanda Thomas        | @amandathom          | Model evaluation, performance analysis, results interpretation                                           |
+| Amanda Thomas        | @amandathom          | Model evaluation, hyperparameter tuning, performance analysis, results interpretation                                           |
 | Izabella Doser       | @Izabelladesign      | Data exploration, dimensionality reduction, model development, documentation                             |
-| Arian Bahram         | @ariansbahram        | Data preprocessing, exploratory data analysis (EDA),model development                                    |
+| Arian Bahram         | @ariansbahram        | Data preprocessing, exploratory data analysis (EDA), model development                                    |
 | Saket Kolluru        | @Saketk2             | Dashboard development, data visualization, results interpretation                                        |
 | Eden Radulescu       | @edenradulescu       | Dashboard development, data visualization, results interpretation                                        |
 
