@@ -1,7 +1,4 @@
-# Neuroscience-Driven Learning Engagement System:
-
-## Challenger Insight:
-
+# EEG  brain-wave Learning Engagement System:
 Prototype predictive model for learner disengagement risk using EEG brain-wave data and learner surveys. The system applies dimensionality reduction and lightweight machine learning models to link cognitive load with engagement and provide adaptive learning triggers.
 
 ---
